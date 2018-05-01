@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopDresses.html" afterPath="$PROJECT_DIR$/shopDresses.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/shopDressesStyles.css" afterPath="$PROJECT_DIR$/styles/shopDressesStyles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="shopDresses.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopDresses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="99" lean-forward="false" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
+            <state relative-caret-position="300">
+              <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -29,8 +30,8 @@
       <file leaf-file-name="shopDressesStyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/shopDressesStyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -44,6 +45,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/styles/shopDressesStyles.css" />
         <option value="$PROJECT_DIR$/shopDresses.html" />
       </list>
     </option>
@@ -117,12 +119,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525201170670</updated>
-      <workItem from="1525201172406" duration="976000" />
+      <workItem from="1525201172406" duration="1674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="976000" />
+    <option name="totallyTimeSpent" value="1674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1064" height="697" extended-state="0" />
@@ -159,16 +161,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styles/shopDressesStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopDresses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="99" lean-forward="false" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
+        <state relative-caret-position="300">
+          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
           <folding />
         </state>
       </provider>
