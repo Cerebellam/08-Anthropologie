@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/logo.svg" afterPath="$PROJECT_DIR$/icons/logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/searchIcon.svg" afterPath="$PROJECT_DIR$/icons/searchIcon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/shoppingBag.svg" afterPath="$PROJECT_DIR$/icons/shoppingBag.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopDresses.html" afterPath="$PROJECT_DIR$/shopDresses.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/shopDressesStyles.css" afterPath="$PROJECT_DIR$/styles/shopDressesStyles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,8 +29,8 @@
       <file leaf-file-name="shopDressesStyles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/shopDressesStyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+            <state relative-caret-position="245">
+              <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -122,12 +118,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525201170670</updated>
-      <workItem from="1525201172406" duration="9093000" />
+      <workItem from="1525201172406" duration="9206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9093000" />
+    <option name="totallyTimeSpent" value="9206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="39" width="1064" height="697" extended-state="0" />
@@ -172,8 +168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/shopDressesStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        <state relative-caret-position="245">
+          <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
           <folding />
         </state>
       </provider>

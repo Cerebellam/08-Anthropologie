@@ -66,6 +66,8 @@ html, body{
     font-size: 0.75em;
     font-weight: 600;
     margin-left: 5px;
+    padding: 2px 0;
+    outline: none;
 }
 .logo{
     width: calc(33.33% - 20px);
