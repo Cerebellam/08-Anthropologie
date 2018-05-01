@@ -27,5 +27,12 @@ html, body{
     font-size: 16px;
     letter-spacing: 0.05em;
 }
+.sale-alert__tab--link{
+    text-decoration: underline;
+}
+.sale-alert__tab--link:hover{
+    color: #6786af;
+    cursor: default;
+}
 
 
