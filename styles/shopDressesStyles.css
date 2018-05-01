@@ -37,5 +37,81 @@ html, body{
     color: #6786af;
     cursor: default;
 }
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+}
+.search{
+    width: calc(33.33% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 40px;
+}
+.search__icon{
+    width: 18px;
+}
+.search__input{
+    border: none;
+    border-bottom: 1px solid #cac0b5;
+    color: #07a7ca;
+    font-family: 'Nunito';
+    letter-spacing: 0.08em;
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.logo{
+    width: calc(33.33% - 20px);
+    text-align: center;
+    padding-right: 20px;
+}
+.logo__image{
+    width: 190px;
+}
+.mobile-search{
+    display: none;
+}
+.utility-nav{
+    width: calc(33.33% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.75em;
+    color: #07a7ca;
+    padding-right: 40px;
+}
+.utility-nav__tab{
+    padding-right: 15px;
+}
+.utility-nav__arrow-down{
+    width: 12px;
+}
+.shopping-bag__icon{
+    width: 25px;
+}
+.mobile-menu{
+    width: 100%;
+    border-bottom: 1px solid #e7e9ef;
+}
+.menu__tabs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .8em;
+    padding: 35px 0 15px 0;
+
+}
+.menu__tab{
+    padding: 0 18px;
+}
 
 
