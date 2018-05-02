@@ -135,7 +135,7 @@ html, body{
 .category-menu{
     border: 1px solid #ccc;
 }
-.category-menu__header{
+.menu__header{
     background: #f2f0eb;
     font-size: 13px;
     font-weight: 600;
@@ -148,9 +148,9 @@ html, body{
 .category-menu__tabs{
     padding: 15px 0;
 }
-.category-menu__tab-title{
+.menu__tab-title{
     color: #05728c;
-    padding: 5px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
     font-weight: 600;
     letter-spacing: 0.05em;
 
@@ -161,4 +161,34 @@ html, body{
     letter-spacing: 0.05em;
     padding: 7px 25px;
 }
-
+.filter-menu{
+    border: 1px solid #ccc;
+    margin:30px 0;
+}
+.filter__category{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+.menu__tab--black{
+    color: #040211;
+}
+.menu__tab--black:hover{
+    color: #05728c;
+    cursor: default;
+}
+.filter__plus-icon{
+    width: 9px;
+    padding-right: 15px;
+}
+.menu-tab__reset{
+    color: #cdcdcd;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+}
