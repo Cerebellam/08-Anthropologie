@@ -93,6 +93,10 @@ html, body{
 }
 .utility-nav__tab{
     padding-right: 15px;
+    cursor: default;
+}
+.utility-nav__tab:hover{
+    color: #07caee;
 }
 .utility-nav__arrow-down{
     width: 12px;
