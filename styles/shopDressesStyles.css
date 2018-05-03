@@ -8,8 +8,9 @@ html, body{
 
 }
 .sale-alert{
-    background: #dce8ea;
+    background: #67b2c6;
     padding: 12px 0;
+    color: white;
 }
 .sale-alert__tabs{
     display: flex;
@@ -131,6 +132,7 @@ html, body{
 .side-menu{
     width: calc(20% - 60px);
     padding-left: 60px;
+    cursor: default;
 }
 .category-menu{
     border: 1px solid #ccc;
@@ -160,6 +162,9 @@ html, body{
     font-size: 12px;
     letter-spacing: 0.05em;
     padding: 7px 25px;
+}
+.category-menu__tab:hover{
+    color:#05728c;
 }
 .filter-menu{
     border: 1px solid #ccc;
