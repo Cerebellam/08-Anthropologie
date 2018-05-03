@@ -2,26 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/BlogContentSlot_200x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/addButton.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/arrowDown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/searchIcon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/shoppingBag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arcadesDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/brisbaneDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/castaniaDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cayceDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cityscapeDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/corrinaDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/elloryDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/eyeletDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hudsonDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lispenDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/maverickDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/nicoDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/noraDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/summerDress.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/violetteDress.jpeg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopDresses.html" afterPath="$PROJECT_DIR$/shopDresses.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,8 +19,8 @@
       <file leaf-file-name="shopDresses.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopDresses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1537">
-              <caret line="148" column="25" lean-forward="true" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+            <state relative-caret-position="412">
+              <caret line="291" column="59" lean-forward="false" selection-start-line="291" selection-start-column="59" selection-end-line="291" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -143,12 +123,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525201170670</updated>
-      <workItem from="1525201172406" duration="17431000" />
+      <workItem from="1525201172406" duration="17979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17431000" />
+    <option name="totallyTimeSpent" value="17979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="30" width="1064" height="697" extended-state="0" />
@@ -193,8 +173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopDresses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1537">
-          <caret line="148" column="25" lean-forward="true" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+        <state relative-caret-position="412">
+          <caret line="291" column="59" lean-forward="false" selection-start-line="291" selection-start-column="59" selection-end-line="291" selection-end-column="59" />
           <folding />
         </state>
       </provider>
