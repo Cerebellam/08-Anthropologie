@@ -115,12 +115,45 @@ html, body{
     justify-content: center;
     font-size: .8em;
     padding: 35px 0 15px 0;
-
+    cursor: default;
 }
 .menu__tab{
     padding: 0 18px;
 }
-
+.menu__tab:hover{
+    color: #07a7ca;
+}
+.menu__bridge{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    background: transparent;
+}
+.menu__drop-down{
+    position: absolute;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: rgba(0,0,0,0.1) 0px 5px 10px 0px;
+    left: 0;
+    top:159px;
+    padding: 40px 0;
+    z-index: 3;
+}
+.drop-down__tab{
+    padding: 0 40px;
+    font-weight: 400;
+    color: #040211;
+}
+.drop-down__tab:hover{
+    color: #07a7ca;
+}
+.tab--new-arrivals:hover .menu__drop-down{
+    display: flex;
+}
 
 .main-content{
     display: flex;
@@ -206,7 +239,6 @@ html, body{
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-
 }
 .category-header{
     width: calc(50% - 38px);
@@ -214,6 +246,7 @@ html, body{
     flex-wrap: wrap;
     align-items: center;
     margin-left: 38px;
+    margin-top: -10px;
     padding-bottom: 30px;
 }
 .category-header__title{
@@ -236,6 +269,7 @@ html, body{
     justify-content: flex-end;
     margin-right: 60px;
     padding-bottom: 30px;
+    margin-top: -10px;
 }
 .category-browse__sort{
     height: 41px;
