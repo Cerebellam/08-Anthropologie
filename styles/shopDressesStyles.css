@@ -49,11 +49,11 @@ html, body{
     font-weight: 600;
 }
 .search{
-    width: calc(33.33% - 40px);
+    width: calc(33.33% - 60px);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 .search__icon{
     width: 18px;
