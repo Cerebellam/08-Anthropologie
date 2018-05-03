@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/shopDressesStyles.css" afterPath="$PROJECT_DIR$/styles/shopDressesStyles.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/BlogContentSlot_200x60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/addButton.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/arrowDown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/searchIcon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/shoppingBag.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arcadesDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/brisbaneDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/castaniaDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cayceDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cityscapeDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/corrinaDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/elloryDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/eyeletDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hudsonDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lispenDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/maverickDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/nicoDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/noraDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/summerDress.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/violetteDress.jpeg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopDresses.html" afterPath="$PROJECT_DIR$/shopDresses.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,17 +36,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shopDresses.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shopDresses.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopDresses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="131" column="62" lean-forward="false" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
+            <state relative-caret-position="-1537">
+              <caret line="148" column="25" lean-forward="true" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopDressesStyles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shopDressesStyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/shopDressesStyles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
@@ -44,8 +64,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shopDresses.html" />
         <option value="$PROJECT_DIR$/styles/shopDressesStyles.css" />
+        <option value="$PROJECT_DIR$/shopDresses.html" />
       </list>
     </option>
   </component>
@@ -85,6 +105,11 @@
               <item name="08-hw" type="b2602c69:ProjectViewProjectNode" />
               <item name="08-hw" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="08-hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="08-hw" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -118,18 +143,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525201170670</updated>
-      <workItem from="1525201172406" duration="15137000" />
+      <workItem from="1525201172406" duration="17431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15137000" />
+    <option name="totallyTimeSpent" value="17431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="30" width="1064" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08928572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22180451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -158,18 +183,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shopDresses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="131" column="62" lean-forward="false" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/shopDressesStyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="102" column="1" lean-forward="false" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopDresses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1537">
+          <caret line="148" column="25" lean-forward="true" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
           <folding />
         </state>
       </provider>
