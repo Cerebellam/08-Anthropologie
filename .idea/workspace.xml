@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/header-styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/add-button.svg" afterPath="$PROJECT_DIR$/dist/icons/add-button.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/arrow-down.svg" afterPath="$PROJECT_DIR$/dist/icons/arrow-down.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/arrow-left.svg" afterPath="$PROJECT_DIR$/dist/icons/arrow-left.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/arrow-right.svg" afterPath="$PROJECT_DIR$/dist/icons/arrow-right.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/blog-content.png" afterPath="$PROJECT_DIR$/dist/icons/blog-content.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/logo.svg" afterPath="$PROJECT_DIR$/dist/icons/logo.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/search-icon.svg" afterPath="$PROJECT_DIR$/dist/icons/search-icon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/shopping-bag.svg" afterPath="$PROJECT_DIR$/dist/icons/shopping-bag.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/basil-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/basil-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/dinan-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/dinan-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/elspeth-dress-hover.jpeg" afterPath="$PROJECT_DIR$/dist/images/elspeth-dress-hover.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/elspeth-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/elspeth-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/goldenrod-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/goldenrod-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/hudson-dress-hover.jpeg" afterPath="$PROJECT_DIR$/dist/images/hudson-dress-hover.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/hudson-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/hudson-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/linen-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/linen-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mara-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/mara-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/rose-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/rose-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/savoy-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/savoy-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/slip-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/slip-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/striped-dress-hover.jpeg" afterPath="$PROJECT_DIR$/dist/images/striped-dress-hover.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/striped-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/striped-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/winsome-dress.jpeg" afterPath="$PROJECT_DIR$/dist/images/winsome-dress.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/shopDressesStyles.css" afterPath="$PROJECT_DIR$/dist/styles/shopDressesStyles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopDresses.html" afterPath="$PROJECT_DIR$/shopDresses.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/footer-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/shopDresses.html" afterPath="$PROJECT_DIR$/dist/shopDresses.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/footer.html" afterPath="$PROJECT_DIR$/partials/footer.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="483">
+              <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer-styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/styles/footer-styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,8 +101,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="23" />
+    <option name="x" value="40" />
+    <option name="y" value="26" />
     <option name="width" value="1190" />
     <option name="height" value="751" />
   </component>
@@ -207,18 +189,17 @@
       <option name="presentableId" value="Default" />
       <updated>1525201170670</updated>
       <workItem from="1525201172406" duration="35584000" />
-      <workItem from="1526047208009" duration="859000" />
+      <workItem from="1526047208009" duration="2123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36443000" />
+    <option name="totallyTimeSpent" value="37707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="1190" height="751" extended-state="0" />
-    <editor active="true" />
+    <frame x="40" y="26" width="1190" height="751" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16167665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16167665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -282,6 +263,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -289,14 +271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/shopDressesStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1771">
-          <caret line="171" column="16" lean-forward="false" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -309,10 +283,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/shopDressesStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="171" column="16" lean-forward="false" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="483">
+          <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/footer-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
