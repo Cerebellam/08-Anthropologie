@@ -1,0 +1,155 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;;
+}
+.header{
+
+}
+.sale-alert{
+    background: #67b2c6;
+    padding: 12px 0;
+    color: white;
+}
+.sale-alert__tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sale-alert__tab{
+    font-size: 0.75em;
+    font-weight: 600;
+    padding: 0 25px;
+    letter-spacing: 0.07em;
+}
+.sale-alert__tab--italic{
+    font-style: oblique;
+}
+.sale-alert__tab--title{
+    font-size: 16px;
+}
+.sale-alert__tab--link{
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+}
+.sale-alert__tab--link:hover{
+    opacity: 0.7;
+    cursor: default;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+}
+.search{
+    width: calc(33.33% - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 60px;
+}
+.search__icon{
+    width: 18px;
+}
+.search__input{
+    border: none;
+    border-bottom: 1px solid #cac0b5;
+    color: #07a7ca;
+    font-family: 'Nunito';
+    letter-spacing: 0.08em;
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-left: 5px;
+    padding: 2px 0;
+    outline: none;
+}
+.logo{
+    width: calc(33.33% - 20px);
+    text-align: center;
+    padding-right: 20px;
+}
+.logo__image{
+    width: 190px;
+}
+.mobile-search{
+    display: none;
+}
+.utility-nav{
+    width: calc(33.33% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.75em;
+    color: #07a7ca;
+    padding-right: 40px;
+}
+.utility-nav__tab{
+    padding-right: 15px;
+    cursor: default;
+}
+.utility-nav__tab:hover{
+    color: #07caee;
+}
+.utility-nav__arrow-down{
+    width: 12px;
+}
+.shopping-bag__icon{
+    width: 25px;
+}
+.mobile-menu{
+    width: 100%;
+    border-bottom: 1px solid #e7e9ef;
+}
+.menu__tabs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .8em;
+    padding: 35px 0 15px 0;
+    cursor: default;
+}
+.menu__tab{
+    padding: 0 18px;
+}
+.menu__tab:hover{
+    color: #07a7ca;
+}
+.menu__bridge{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    background: transparent;
+}
+.menu__drop-down{
+    position: absolute;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: rgba(0,0,0,0.1) 0px 5px 10px 0px;
+    left: 0;
+    top:159px;
+    padding: 40px 0;
+    z-index: 3;
+}
+.drop-down__tab{
+    padding: 0 40px;
+    font-weight: 400;
+    color: #040211;
+}
+.drop-down__tab:hover{
+    color: #07a7ca;
+}
+.tab--new-arrivals:hover .menu__drop-down{
+    display: flex;
+}

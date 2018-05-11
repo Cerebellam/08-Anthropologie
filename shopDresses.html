@@ -1,80 +1,5 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shop Dresses</title>
-    <link rel="stylesheet" href="styles/shopDressesStyles.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
-
-</head>
-<body>
-
-    <div class="header">
-        <div class="sale-alert">
-            <div class="sale-alert__tabs">
-                <div class="sale-alert__tab sale-alert__tab--italic"> It's So Easy! Shop. Ship Free</div>
-                <div class="sale-alert__tab sale-alert__tab--title"> 20% OFF Full-Price Denim</div>
-                <div class="sale-alert__tab sale-alert__tab--link"> shop denim</div>
-                <div class="sale-alert__tab sale-alert__tab--link">sign up for free ship</div>
-                <div class="sale-alert__tab sale-alert__tab--link">details</div>
-            </div>
-        </div>
-        <div class="menu">
-            <div class="search">
-                <img class="search__icon" src="icons/search-icon.svg">
-                <input class="search__input" type="text" placeholder="search">
-            </div>
-            <div class="logo">
-                <img class="logo__image" src="icons/logo.svg">
-            </div>
-            <div class="mobile-search">
-                <img class="mobile-search__icon" src="icons/search-icon.svg">
-            </div>
-            <div class="utility-nav">
-                <div class="utility-nav__tab">registry</div>
-                <div class="utility-nav__tab">
-                    usd: english
-                    <img class="utility-nav__arrow-down" src="icons/arrow-down.svg">
-                </div>
-                <div class="utility-nav__tab">sign in / sign up</div>
-                <div class="utility-nav__tab">
-                    <img class="shopping-bag__icon" src="icons/shopping-bag.svg">
-                </div>
-            </div>
-            <div class="mobile-menu">
-                <div class="hamburger-icon">
-                    <div class="hamburger-icon__lines"></div>
-                    <div class="hamburger-icon__lines"></div>
-                    <div class="hamburger-icon__lines"></div>
-                </div>
-                <div class="menu__tabs">
-                    <div class="menu__tab tab--new-arrivals">
-                        New Arrivals
-                        <div class="menu__bridge"></div>
-                        <div class="menu__drop-down">
-                            <div class="drop-down__tab">Clothing</div>
-                            <div class="drop-down__tab">Shoes & Accessories</div>
-                            <div class="drop-down__tab">Home & Furniture</div>
-                            <div class="drop-down__tab">Beauty & Wellness</div>
-                        </div>
-                    </div>
-                    <div class="menu__tab">Dress Shop</div>
-                    <div class="menu__tab">Clothing</div>
-                    <div class="menu__tab">Shoes & Accessories</div>
-                    <div class="menu__tab">Home & Furniture</div>
-                    <div class="menu__tab">Beauty & Wellness</div>
-                    <div class="menu__tab">Sale</div>
-                    <div class="menu__tab">BHLDN</div>
-                    <div class="menu__tab">Terrain</div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-
+@@include('partials/header.html')
+<link rel="stylesheet" href="styles/shopDressesStyles.css">
 
     <div class="main-content">
         <div class="bread-crumb">
@@ -159,9 +84,9 @@
                     <option value="z-a">Z-A</option>
                 </select>
                 <div class="paging paging__top">
-                    <img class="paging__arrow arrow--left" src="icons/arrow-left.svg">
+                    <img class="paging__arrow paging__arrow--left" src="icons/arrow-left.svg">
                     <div class="paging__number">1 / 6</div>
-                    <img class="paging__arrow arrow--right" src="icons/arrow-right.svg">
+                    <img class="paging__arrow paging__arrow--right" src="icons/arrow-right.svg">
                 </div>
             </div>
 
@@ -490,6 +415,8 @@
             </div>
         </div>
     </div>
+@@include('partials/footer.html')
+
 
 
 </body>
