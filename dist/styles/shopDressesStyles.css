@@ -131,15 +131,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: flex-end;
 }
 .paging__arrow{
     height: 20px;
 }
-.arrow--left{
+.paging__arrow--left{
     opacity: 0.3;
     padding-right: 10px;
 }
-.arrow--right{
+.paging__arrow--right{
     padding-left: 10px;
 }
 .paging__number{
@@ -152,7 +153,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    margin: 0 60px 0 20px;
+    margin: 0 60px 20px 20px;
 }
 .gallery__product{
     width: calc(25% - 20px);
@@ -245,6 +246,32 @@
 }
 .product--gray{
     background: #888888;
+}
+.paging__bottom{
+    padding-bottom: 60px;
+    width: 100%;
+    padding-right: 60px;
+}
+.best-dresses{
+    width: calc(100% - 100px);
+    margin: 0 60px 0 40px;
+    border-top: 1px solid #f2f0ec;
+    padding-top: 20px;
+
+}
+.best-dresses__title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #393940;
+}
+.best-dresses__description{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5c5c5f;
+    letter-spacing: 0.06em;
+    padding-top: 15px;
+    line-height: 22px;
+
 }
 
 @media (max-width: 1314px) {
