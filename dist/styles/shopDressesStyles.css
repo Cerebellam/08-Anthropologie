@@ -256,16 +256,17 @@
     width: calc(100% - 100px);
     margin: 0 60px 0 40px;
     border-top: 1px solid #f2f0ec;
-    padding-top: 20px;
+    padding-top: 30px;
 
 }
 .best-dresses__title{
     font-size: 18px;
     font-weight: 600;
     color: #393940;
+    letter-spacing: 0.05em;
 }
 .best-dresses__description{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     color: #5c5c5f;
     letter-spacing: 0.06em;
