@@ -1,7 +1,8 @@
 html, body{
     padding: 0;
     margin: 0;
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Nunito', sans-serif;
+    background: #fdfdf9;
 }
 .header{
 
@@ -68,6 +69,7 @@ html, body{
     margin-left: 5px;
     padding: 2px 0;
     outline: none;
+    background: none;
 }
 .logo{
     width: calc(33.33% - 20px);
