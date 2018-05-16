@@ -2,13 +2,15 @@
 .main-product{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    margin:0 60px;
 }
 .image-viewer{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    width: calc(50% - 90px);
-    padding: 0 30px 0 60px;
+    width: calc(52% - 30px);
+    padding: 0 30px 0 0;
 }
 .image-viewer__thumbnails{
     display: flex;
@@ -50,7 +52,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    width: calc(50% - 40px);
+    width: calc(48% - 40px);
     padding-left: 40px;
 }
 .product-info__title{
@@ -128,8 +130,8 @@
 .size-form{
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% - 60px);
-    padding: 15px 60px 5px 0;
+    width: 100%;
+    padding: 15px 0 5px 0;
 }
 .size-form__title{
     font-size: 14px;
@@ -138,9 +140,9 @@
     padding-bottom: 8px;
 }
 .size-form__button{
-    padding: 12px 0;
+    padding: 11px 0;
     margin-top: 5px;
-    width: 42px;
+    width: 40px;
     text-align: center;
     border: 1px solid #ccc;
     margin-right: 5px;
@@ -196,7 +198,7 @@
 }
 .order{
     margin-top: 30px;
-    margin-right: 100px;
+
     padding-top: 30px;
     border-top: 1px solid #ccc;
     display: flex;
@@ -297,8 +299,7 @@
     border-bottom: 1px dotted #ccc;
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% - 60px);
-    margin-right: 60px;
+    width: 100%;
 }
 .details-tab{
     display: flex;
@@ -317,4 +318,15 @@
 }
 .details-tab__expand-icon{
     width: 10px;
+}
+.gallery__products--related{
+    width: 100%;
+    margin:0;
+}
+.gallery__title--related{
+    text-align: center;
+}
+.gallery__product--related{
+    width: calc(16.65% - 15px);
+    padding:20px 15px 0 0;
 }
