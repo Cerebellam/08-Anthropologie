@@ -4,8 +4,10 @@
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/hudson-dress-info.html" afterPath="$PROJECT_DIR$/dist/hudson-dress-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/shopDresses.html" afterPath="$PROJECT_DIR$/dist/shopDresses.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/hudson-styles.css" afterPath="$PROJECT_DIR$/dist/styles/hudson-styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hudson-dress-info.html" afterPath="$PROJECT_DIR$/hudson-dress-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/header.html" afterPath="$PROJECT_DIR$/partials/header.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +24,7 @@
       <file leaf-file-name="header-styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/styles/header-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="1065">
               <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
               <folding />
             </state>
@@ -52,18 +54,28 @@
       <file leaf-file-name="hudson-dress-info.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hudson-dress-info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="196" column="58" lean-forward="true" selection-start-line="196" selection-start-column="58" selection-end-line="196" selection-end-column="64" />
+            <state relative-caret-position="370">
+              <caret line="322" column="103" lean-forward="false" selection-start-line="322" selection-start-column="103" selection-end-line="322" selection-end-column="103" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hudson-styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partials/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hudson-styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/styles/hudson-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="428" column="20" lean-forward="true" selection-start-line="428" selection-start-column="20" selection-end-line="428" selection-end-column="20" />
+            <state relative-caret-position="379">
+              <caret line="519" column="19" lean-forward="false" selection-start-line="519" selection-start-column="19" selection-end-line="519" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -84,12 +96,12 @@
       <list>
         <option value="$PROJECT_DIR$/styles/shopDressesStyles.css" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/partials/header.html" />
         <option value="$PROJECT_DIR$/shopDresses.html" />
         <option value="$PROJECT_DIR$/dist/styles/shopDressesStyles.css" />
         <option value="$PROJECT_DIR$/partials/footer.html" />
         <option value="$PROJECT_DIR$/dist/styles/footer-styles.css" />
         <option value="$PROJECT_DIR$/dist/styles/header-styles.css" />
+        <option value="$PROJECT_DIR$/partials/header.html" />
         <option value="$PROJECT_DIR$/hudson-dress-info.html" />
         <option value="$PROJECT_DIR$/dist/styles/hudson-styles.css" />
       </list>
@@ -138,18 +150,6 @@
               <item name="08-hw" type="b2602c69:ProjectViewProjectNode" />
               <item name="08-hw" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="08-hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-hw" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="08-hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08-hw" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="08-hw" type="b2602c69:ProjectViewProjectNode" />
@@ -205,12 +205,12 @@
       <workItem from="1525201172406" duration="35584000" />
       <workItem from="1526047208009" duration="2162000" />
       <workItem from="1526145348163" duration="28142000" />
-      <workItem from="1526485963806" duration="11391000" />
+      <workItem from="1526485963806" duration="17013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77279000" />
+    <option name="totallyTimeSpent" value="82901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="36" width="1190" height="751" extended-state="0" />
@@ -222,7 +222,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2920354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2027439" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16463415" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -388,14 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -430,14 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/header-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopDresses.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -446,18 +430,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/header-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hudson-dress-info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="196" column="58" lean-forward="true" selection-start-line="196" selection-start-column="58" selection-end-line="196" selection-end-column="64" />
+        <state relative-caret-position="370">
+          <caret line="322" column="103" lean-forward="false" selection-start-line="322" selection-start-column="103" selection-end-line="322" selection-end-column="103" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/hudson-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="428" column="20" lean-forward="true" selection-start-line="428" selection-start-column="20" selection-end-line="428" selection-end-column="20" />
+        <state relative-caret-position="379">
+          <caret line="519" column="19" lean-forward="false" selection-start-line="519" selection-start-column="19" selection-end-line="519" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
           <folding />
         </state>
       </provider>
