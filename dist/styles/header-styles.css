@@ -3,6 +3,7 @@ html, body{
     margin: 0;
     font-family: 'Nunito', sans-serif;
     background: #fdfdf9;
+    letter-spacing: 0.05em;
 }
 .header{
 
