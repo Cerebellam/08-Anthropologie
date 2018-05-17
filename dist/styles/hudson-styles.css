@@ -32,7 +32,7 @@
 .gallery__shop-look{
     width: 100%;
 }
-.gallery__title{
+.section__title{
     font-size: 18px;
     letter-spacing: 0.03em;
     border-bottom: 1px solid #ccc;
@@ -77,7 +77,7 @@
     color: #07a7ca;
     padding-top: 5px;
 }
-.reviews{
+.reviews-info{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -323,10 +323,117 @@
     width: 100%;
     margin:0;
 }
-.gallery__title--related{
+.section__title--center{
     text-align: center;
 }
 .gallery__product--related{
     width: calc(16.65% - 15px);
     padding:20px 15px 0 0;
+}
+.rating{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+.rating__overviews{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 0;
+    width: 100%;
+    background: rgba(242,240,235,.5);
+}
+.rating__overview{
+    width: calc(33.33% - 4px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-right: 4px solid white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+.rating__overview:last-child{
+    border-right: none;
+}
+.rating__amount{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 1px;
+}
+.rating__star-amount{
+    border-right: 2px solid #cdcdcd;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.rating__subtitle{
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 2px 0;
+}
+.rating__check-icon{
+    width: 100%;
+}
+.rating__chart{
+    width: 100%;
+}
+.paging--right{
+    width: 100%;
+}
+.reviewers{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.reviewer{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.reviewer__details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviewer__detail{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+.reviewer__detail--question{
+    font-weight: 600;
+    color: #393940;
+}
+.reviewer__detail--answer{
+    font-weight: 300;
+    color: #5d6073;
+    padding-left: 5px;
+}
+.reviewer__detail--answer:first-child{
+    font-weight: 600;
+    color: #393940;
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+.review{
+    width: calc(70% - 40px);
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.reviews__stars{
+    width: 50%;
+    text-align: left;
+}
+.review__date{
+    width: 50%;
+    text-align: right;
 }
