@@ -58,7 +58,6 @@
 .product-info__title{
     width: 100%;
     font-size: 22px;
-    letter-spacing: 0.05em;
     font-weight: 600;
     color: #393940;
 }
@@ -66,13 +65,11 @@
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    letter-spacing: 0.05em;
     color: #393940;
     padding-top: 5px;
 }
 .product-info__distributor{
     font-size: 13px;
-    letter-spacing: 0.05em;
     border-bottom: 1px solid #07a7ca;
     color: #07a7ca;
     padding-top: 5px;
@@ -94,14 +91,12 @@
 .reviews__stars-amount{
     font-size: 13px;
     color: #5c5c5f;
-    letter-spacing: 0.05em;
     padding:2px 20px 0 20px;
     border-right: 1px solid #f2f0eb;
 }
 .reviews__amount{
     font-size: 13px;
     margin-left: 20px;
-    letter-spacing: 0.05em;
     border-bottom: 1px solid #07a7ca;
     color: #07a7ca;
     padding-top: 2px;
@@ -111,7 +106,6 @@
     flex-wrap: wrap;
     padding-top: 20px;
     font-size: 14px;
-    letter-spacing: 0.05em;
     width: 100%;
 }
 .product-colors__text--gray{
@@ -149,7 +143,6 @@
     font-size: 13px;
     color: #5c5c5f;
     font-weight: 400;
-    letter-spacing: 0.05em;
 }
 .size-form__button--large{
     padding: 12px 0;
@@ -171,7 +164,6 @@
     display: flex;
     flex-wrap: wrap;
     font-size: 13px;
-    letter-spacing: 0.05em;
     padding-top: 15px;
 }
 .link{
@@ -212,7 +204,6 @@
 .order__option{
     display: flex;
     flex-wrap: wrap;
-    letter-spacing: 0.05em;
     width: 100%;
 }
 .order__option--store{
@@ -319,6 +310,10 @@
     letter-spacing: 0.03em;
     font-weight: 600;
 }
+.details-tab__title:hover{
+    color: #07a7ca;
+    cursor: default;
+}
 .details-tab__expand-icon{
     width: 10px;
 }
@@ -357,7 +352,6 @@
     padding: 30px 0;
     font-size: 13px;
     font-weight: 600;
-    letter-spacing: 0.05em;
 }
 .rating__overview:last-child{
     border-right: none;
@@ -415,7 +409,6 @@
     flex-wrap: wrap;
     padding-bottom: 10px;
     font-size: 14px;
-    letter-spacing: 0.05em;
 }
 .reviewer__detail--question{
     font-weight: 600;
@@ -456,12 +449,10 @@
     font-style: oblique;
     font-weight: 300;
     color: #393940;
-    letter-spacing: 0.05em;
     margin-top: 5px;
 }
 .review__text{
     font-size: 15px;
-    letter-spacing: 0.05em;
     font-weight: 300;
     color: #5d6073;
     line-height: 24px;
@@ -470,7 +461,6 @@
 .link--full{
     color: #07a7ca;
     font-size: 15px;
-    letter-spacing: 0.06em;
     border-bottom: 1px solid #07a7ca;
     margin: 10px 0;
 }
@@ -501,18 +491,24 @@
 .button--outline{
     border: 2px solid #393940;
     color: #393940;
-    width: 300px;
+    width: 350px;
 }
+.button--outline:hover{
+    border: 2px solid #05728c;
+}
+
 .create-review{
     width: 100%;
     text-align: center;
     padding: 40px 0;
+
 }
 .create-review__text{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 20px;
+    align-items: baseline;
+    padding-top: 30px;
 }
 .create-review__text--oblique{
     font-size: 14px;
@@ -521,8 +517,39 @@
 }
 .link--learn-more{
     margin-left: 15px;
+    font-size: 13px;
 }
-.button--outline:hover{
-    border: 2px solid #05728c;
+.banner__hashtag{
+    text-align: center;
+    width: 100%;
 }
+.hashtag__image{
+    width: 600px;
+}
+.share{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.share__icons{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
+}
+.share__icon{
+    width: 40px;
+    padding: 0 10px;
+}
+.share__icon:hover{
+    opacity: 0.7;
+}
+.share__text{
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    font-size: 14px;
+    color: #5c5c5f;
+}
