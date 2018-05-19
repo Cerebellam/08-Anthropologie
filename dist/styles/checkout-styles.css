@@ -108,7 +108,7 @@
     align-items: center;
     width: calc(100% - 40px);
     border-top: 1px dotted #5c5c5f;
-    margin: 20px 20px 0 20px;
+    margin: 20px;
     padding-top: 20px;
 }
 .gift-wrap__icon{
@@ -152,13 +152,15 @@
     text-align: center;
     width: 100%;
 
+
 }
 .link--basket{
     width: calc(33% - 20px);
     font-size: 13px;
-    padding: 0 10px;
+    padding: 10px 10px;
     text-decoration: underline;
     border-bottom: 0;
+
 }
 .link--border{
     border-right: 1px solid #cdcdcd;
