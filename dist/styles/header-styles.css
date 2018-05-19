@@ -103,8 +103,25 @@ html, body{
 .utility-nav__arrow-down{
     width: 12px;
 }
+.shopping-bag{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+}
+.shopping-bag:hover{
+    opacity: 0.7;
+    color: #07caee;
+}
 .shopping-bag__icon{
     width: 25px;
+}
+.shopping-bag__amount{
+    font-size: 13px;
+    font-weight: 700;
+    color: #07a7ca;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 .mobile-menu{
     width: 100%;
