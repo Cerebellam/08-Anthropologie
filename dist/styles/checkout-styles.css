@@ -1,8 +1,13 @@
+.checkout{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 120px);
+    padding: 0 60px;
+}
 .basket{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 60px;
-    width: calc(60% - 120px);
+    width: 60%;
 }
 .basket__title{
     font-size: 24px;
@@ -151,8 +156,6 @@
     align-items: flex-end;
     text-align: center;
     width: 100%;
-
-
 }
 .link--basket{
     width: calc(33% - 20px);
@@ -164,4 +167,7 @@
 }
 .link--border{
     border-right: 1px solid #cdcdcd;
+}
+.order-summary{
+    width: 40%;
 }

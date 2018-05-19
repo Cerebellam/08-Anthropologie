@@ -76,125 +76,131 @@
 <link rel="stylesheet" href="styles/checkout-styles.css">
 <title>Checkout</title>
 
-
-<div class="basket">
-    <div class="basket__title">Basket</div>
-    <div class="basket__header">
-        <div class="header__section header__section--left">
-            <div class="basket__category basket__category--single">Item</div>
+<div class="checkout">
+    <div class="basket">
+        <div class="basket__title">Basket</div>
+        <div class="basket__header">
+            <div class="header__section header__section--left">
+                <div class="basket__category basket__category--single">Item</div>
+            </div>
+            <div class="header__section header__section--right">
+                <div class="basket__category">Item Price</div>
+                <div class="basket__category">Quantity</div>
+                <div class="basket__category">Total Price</div>
+            </div>
         </div>
-        <div class="header__section header__section--right">
-            <div class="basket__category">Item Price</div>
-            <div class="basket__category">Quantity</div>
-            <div class="basket__category">Total Price</div>
+        <div class="basket__items">
+            <div class="basket__item">
+                <div class="basket__product">
+                    <img class="basket__product-image" src="images/linen-dress.jpeg">
+                </div>
+                <div class="basket__columns">
+                    <div class="basket__column">
+                        <div class="basket__item-info">
+                            <div class="basket__item-name">Linen Off-Shoulder Dress</div>
+                            <div class="basket__item-details">
+                                <div class="basket__detail-category">Style #</div>
+                                <div class="basket__detail-choice">4130276110004</div>
+                            </div>
+                            <div class="basket__item-details">
+                                <div class="basket__detail-category">Color</div>
+                                <div class="basket__detail-choice">Dark Orange</div>
+                            </div>
+                            <div class="basket__item-details">
+                                <div class="basket__detail-category">Size</div>
+                                <div class="basket__detail-choice">XS</div>
+                            </div>
+                            <div class="basket__item-details">
+                                <div class="basket__detail-category">Fit</div>
+                                <div class="basket__detail-choice">Regular</div>
+                            </div>
+                        </div>
+                        <div class="link link--edit">Edit</div>
+                    </div>
+                    <div class="basket__column">
+                        <div class="basket__price-section">
+                            <div class="basket__item-price">$158.00</div>
+                            <div class="basket__quantity">
+                                <select class="quantity__select quantity__select--basket">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+                            </div>
+                            <div class="basket__total-price">$158.00</div>
+                        </div>
+                        <div class="basket__edit-section">
+                            <div class="link link--basket link--border">Remove</div>
+                            <div class="link link--basket link--border">Move to Wishlist</div>
+                            <div class="link link--basket">Save for Later</div>
+                        </div>
+                    </div>
+                    <div class="basket__gift-wrap">
+                        <img class="gift-wrap__icon" src="icons/gift-wrap.svg">
+                        <div class="link link--gift-wrap">Add Gift Wrap</div>
+                    </div>
+                 </div>
+            </div>
+            <div class="basket__item">
+                <div class="basket__product">
+                    <img class="basket__product-image" src="images/hudson-dress.jpeg">
+                </div>
+                <div class="basket__columns">
+                    <div class="basket__column">
+                        <div class="basket__item-info">
+                            <div class="basket__item-name">The Hudson Dress</div>
+                            <div class="basket__item-details">
+                                <div class="basket__detail-category">Style #</div>
+                                <div class="basket__detail-choice">4130348695987</div>
+                            </div>
+                            <div class="basket__item-details">
+                                <div class="basket__detail-category">Color</div>
+                                <div class="basket__detail-choice">Red Motif</div>
+                            </div>
+                            <div class="basket__item-details">
+                                <div class="basket__detail-category">Size</div>
+                                <div class="basket__detail-choice">4</div>
+                            </div>
+                            <div class="basket__item-details">
+                                <div class="basket__detail-category">Fit</div>
+                                <div class="basket__detail-choice">Regular</div>
+                            </div>
+                        </div>
+                        <div class="link link--edit">Edit</div>
+                    </div>
+                    <div class="basket__column">
+                        <div class="basket__price-section">
+                            <div class="basket__item-price">$158.00</div>
+                            <div class="basket__quantity">
+                                <select class="quantity__select quantity__select--basket">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                </select>
+                            </div>
+                            <div class="basket__total-price">$158.00</div>
+                        </div>
+                        <div class="basket__edit-section">
+                            <div class="link link--basket link--border">Remove</div>
+                            <div class="link link--basket link--border">Move to Wishlist</div>
+                            <div class="link link--basket">Save for Later</div>
+                        </div>
+                    </div>
+                    <div class="basket__gift-wrap">
+                        <img class="gift-wrap__icon" src="icons/gift-wrap.svg">
+                        <div class="link link--gift-wrap">Add Gift Wrap</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="basket__items">
-        <div class="basket__item">
-            <div class="basket__product">
-                <img class="basket__product-image" src="images/linen-dress.jpeg">
-            </div>
-            <div class="basket__columns">
-                <div class="basket__column">
-                    <div class="basket__item-info">
-                        <div class="basket__item-name">Linen Off-Shoulder Dress</div>
-                        <div class="basket__item-details">
-                            <div class="basket__detail-category">Style #</div>
-                            <div class="basket__detail-choice">4130276110004</div>
-                        </div>
-                        <div class="basket__item-details">
-                            <div class="basket__detail-category">Color</div>
-                            <div class="basket__detail-choice">Dark Orange</div>
-                        </div>
-                        <div class="basket__item-details">
-                            <div class="basket__detail-category">Size</div>
-                            <div class="basket__detail-choice">XS</div>
-                        </div>
-                        <div class="basket__item-details">
-                            <div class="basket__detail-category">Fit</div>
-                            <div class="basket__detail-choice">Regular</div>
-                        </div>
-                    </div>
-                    <div class="link link--edit">Edit</div>
-                </div>
-                <div class="basket__column">
-                    <div class="basket__price-section">
-                        <div class="basket__item-price">$158.00</div>
-                        <div class="basket__quantity">
-                            <select class="quantity__select quantity__select--basket">
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                            </select>
-                        </div>
-                        <div class="basket__total-price">$158.00</div>
-                    </div>
-                    <div class="basket__edit-section">
-                        <div class="link link--basket link--border">Remove</div>
-                        <div class="link link--basket link--border">Move to Wishlist</div>
-                        <div class="link link--basket">Save for Later</div>
-                    </div>
-                </div>
-                <div class="basket__gift-wrap">
-                    <img class="gift-wrap__icon" src="icons/gift-wrap.svg">
-                    <div class="link link--gift-wrap">Add Gift Wrap</div>
-                </div>
-             </div>
-        </div>
-        <div class="basket__item">
-            <div class="basket__product">
-                <img class="basket__product-image" src="images/hudson-dress.jpeg">
-            </div>
-            <div class="basket__columns">
-                <div class="basket__column">
-                    <div class="basket__item-info">
-                        <div class="basket__item-name">The Hudson Dress</div>
-                        <div class="basket__item-details">
-                            <div class="basket__detail-category">Style #</div>
-                            <div class="basket__detail-choice">4130348695987</div>
-                        </div>
-                        <div class="basket__item-details">
-                            <div class="basket__detail-category">Color</div>
-                            <div class="basket__detail-choice">Red Motif</div>
-                        </div>
-                        <div class="basket__item-details">
-                            <div class="basket__detail-category">Size</div>
-                            <div class="basket__detail-choice">4</div>
-                        </div>
-                        <div class="basket__item-details">
-                            <div class="basket__detail-category">Fit</div>
-                            <div class="basket__detail-choice">Regular</div>
-                        </div>
-                    </div>
-                    <div class="link link--edit">Edit</div>
-                </div>
-                <div class="basket__column">
-                    <div class="basket__price-section">
-                        <div class="basket__item-price">$158.00</div>
-                        <div class="basket__quantity">
-                            <select class="quantity__select quantity__select--basket">
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                            </select>
-                        </div>
-                        <div class="basket__total-price">$158.00</div>
-                    </div>
-                    <div class="basket__edit-section">
-                        <div class="link link--basket link--border">Remove</div>
-                        <div class="link link--basket link--border">Move to Wishlist</div>
-                        <div class="link link--basket">Save for Later</div>
-                    </div>
-                </div>
-                <div class="basket__gift-wrap">
-                    <img class="gift-wrap__icon" src="icons/gift-wrap.svg">
-                    <div class="link link--gift-wrap">Add Gift Wrap</div>
-                </div>
-            </div>
+    <div class="order-summary">
+        <div class="phone">
+            <img class="phone__icon" src="icons/phone-icon.svg">
+            <div class="phone__number">800.309.2500</div>
         </div>
     </div>
 </div>
-
 
 <link rel="stylesheet" href="styles/footer-styles.css">
 <div class="footer">
