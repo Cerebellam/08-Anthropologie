@@ -245,7 +245,7 @@ html, body{
     .mobile-menu{
         border-bottom: none;
     }
-    .mobile-menu:hover .menu__tabs{
+    .hamburger-icon:hover .menu__tabs{
         display: block;
     }
     .menu__bridge{
@@ -275,7 +275,7 @@ html, body{
         display: none;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 844px) {
     .menu__tabs {
         top: 154px;
     }
