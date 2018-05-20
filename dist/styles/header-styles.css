@@ -356,8 +356,8 @@ html, body{
         cursor: default;
     }
     .mobile-menu{
-        width: calc(20% - 20px);
-        padding-left: 20px;
+        width: calc(20% - 40px);
+        padding-left: 40px;
     }
     .hamburger-icon__lines{
         width: 16px;
