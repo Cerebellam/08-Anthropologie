@@ -6,6 +6,8 @@
     padding: 40px 60px;
 }
 .footer__tabs{
+    display: flex;
+    flex-wrap: wrap;
     width: 20%;
     line-height: 30px;
 }
@@ -70,6 +72,9 @@
 .footer__banner--image{
     width: 100%;
 }
+.footer__banner--mobile{
+    display: none;
+}
 .footer-utility{
     display: flex;
     flex-wrap: wrap;
@@ -96,4 +101,273 @@
 }
 .footer-utility__tab--border{
     border-right: 2px solid #ccc;
+}
+
+
+@media (max-width: 1128px) {
+    .footer{
+        padding: 40px 20px;
+    }
+    .footer__tabs{
+        width: calc(25% - 40px);
+        line-height: 40px;
+        padding-left: 40px;
+    }
+    .footer__tabs--padding{
+        width: 25%;
+        padding-left: 0;
+    }
+    .footer__tab{
+        width: 100%;
+        font-size: 14px;
+        color: #5c5c5f;
+        letter-spacing: 0.05em;
+    }
+    .footer__tab:hover{
+        color: #07a7ca;
+        cursor: default;
+    }
+    .footer__tab--title{
+        font-size: 15px;
+        font-weight: 600;
+        color: #393940;
+    }
+    .footer__tab--connect{
+        display: none;
+    }
+    .footer__tab--padding{
+        width: calc(100% - 70px);
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding:0 60px 0 10px ;
+    }
+    .footer__tab--buttons{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .footer__tab--buttons:hover{
+        opacity: 0.7;
+    }
+    .footer__tab--button{
+        width: 50px;
+        text-align: center;
+    }
+    .footer__tab--button-text{
+        font-size: 13px;
+        text-align: center;
+        width: 100%;
+        color: #05728c;
+        font-weight: 600;
+        padding-left: 10px;
+
+    }
+    .footer__tab--half{
+        width: 50%;
+    }
+    .footer__tabs--full{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: calc(100% - 120px);
+        padding: 10px 60px;
+    }
+    .footer__blog--button{
+        width: 50%;
+    }
+    .footer__blog-image{
+        margin-top: 20px;
+    }
+    .footer__tab--social{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: right;
+    }
+    .footer__tab--social-button{
+        height: 25px;
+
+    }
+
+
+}
+@media (max-width: 845px){
+    .footer{
+        padding: 0;
+        margin-top: 50px;
+    }
+    .footer__tabs{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: none;
+    }
+    .footer__tab{
+        margin: 0;
+        padding: 30px 0;
+        border-bottom: 1px solid #ccc;
+        display: none;
+    }
+    .footer__tab--title{
+        text-align: center;
+        display: block;
+    }
+    .footer__tabs--padding{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        border-bottom: none;
+        padding: 0;
+    }
+    .footer__tab--buttons{
+        display: flex;
+        text-align: center;
+        width: 50%;
+    }
+    .footer__tab--buttons:first-child{
+        width: calc(50% - 1px);
+        border-right: 1px solid #ccc;
+    }
+    .footer__tab--button{
+        width: 40px;
+        text-align: center;
+    }
+    .footer__tab--button-text{
+        font-size: 13px;
+        text-align: left;
+        width: 110px;
+        color: #05728c;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+    .footer__blog-image{
+        width: 250px;
+    }
+    .footer__tab--social-button{
+        padding-bottom: 30px;
+    }
+    .footer__banner{
+        display: block;
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .footer__banner--image{
+        display: none;
+
+    }
+    .footer__banner--mobile{
+        display: block;
+        width: 100%;
+
+    }
+    .footer-utility{
+        padding: 20px 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-utility__tabs{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-utility__tab{
+        margin-top: 5px;
+        padding: 0 10px;
+
+    }
+}
+
+@media (max-width: 640px){
+    .footer{
+        padding: 0;
+        margin-top: 50px;
+    }
+    .footer__tabs{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: none;
+    }
+    .footer__tab{
+        margin: 0;
+        padding: 30px 0;
+        border-bottom: 1px solid #ccc;
+        display: none;
+    }
+    .footer__tab--title{
+        text-align: center;
+        display: block;
+    }
+    .footer__tabs--padding{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        border-bottom: none;
+        padding: 0;
+    }
+    .footer__tab--buttons{
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
+    .footer__tab--buttons:first-child{
+        width: 100%;
+        border-right: none;
+    }
+    .footer__tab--button{
+        width: 40px;
+        text-align: center;
+    }
+    .footer__tab--button-text{
+        font-size: 13px;
+        text-align: left;
+        width: 110px;
+        color: #05728c;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+    .footer__blog-image{
+        width: 250px;
+    }
+    .footer__tab--social-button{
+        padding-bottom: 30px;
+    }
+    .footer__banner{
+        display: block;
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .footer__banner--image{
+        display: none;
+
+    }
+    .footer__banner--mobile{
+        display: block;
+        width: 100%;
+
+    }
+    .footer-utility{
+        padding: 20px 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-utility__tabs{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-utility__tab{
+        margin-top: 5px;
+        padding: 0 10px;
+
+    }
 }

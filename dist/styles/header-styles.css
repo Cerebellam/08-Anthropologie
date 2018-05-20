@@ -72,6 +72,21 @@ html, body{
     outline: none;
     background: none;
 }
+.mobile-menu{
+    display: none;
+    width: calc(20% - 60px);
+    padding-left: 60px;
+}
+.hamburger-icon{
+    display: none;
+    margin-top: 3px;
+}
+.hamburger-icon__lines{
+    width: 22px;
+    height: 2px;
+    background: #05728c;
+    margin-bottom: 5px;
+}
 .logo{
     width: calc(33.33% - 20px);
     text-align: center;
@@ -97,6 +112,9 @@ html, body{
     padding-right: 15px;
     cursor: default;
 }
+.utility-nav__shopping-bag{
+
+}
 .utility-nav__tab:hover{
     color: #07caee;
 }
@@ -105,7 +123,6 @@ html, body{
 }
 .shopping-bag{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     text-decoration: none;
 }
@@ -114,7 +131,7 @@ html, body{
     color: #07caee;
 }
 .shopping-bag__icon{
-    width: 25px;
+    width: 20px;
 }
 .shopping-bag__amount{
     font-size: 13px;
@@ -123,7 +140,7 @@ html, body{
     padding-top: 5px;
     padding-left: 5px;
 }
-.mobile-menu{
+.menu-categories{
     width: 100%;
     border-bottom: 1px solid #e7e9ef;
 }
@@ -172,4 +189,212 @@ html, body{
 }
 .tab--new-arrivals:hover .menu__drop-down{
     display: flex;
+}
+
+@media (max-width:1128px) {
+    .menu {
+        box-shadow: 0 3px 5px -2px rgba(205,209,226,.45);
+        margin-bottom: 20px;
+    }
+    .menu-categories{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .search{
+        display: none;
+    }
+    .logo{
+        width: 60%;
+        padding: 0;
+        text-align: center;
+    }
+    .logo__image{
+        width: 50%;
+        max-width: 200px;
+    }
+    .mobile-search{
+        display: block;
+        width: calc(10% - 20px);
+        text-align: right;
+        padding-right: 20px;
+    }
+    .mobile-search__icon{
+        width: 20px;
+    }
+    .utility-nav{
+        width: calc(10% - 60px);
+        margin: 0;
+        padding: 0 60px 0 0;
+    }
+    .utility-nav__tab{
+        display: none;
+    }
+    .utility-nav__shopping-bag{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .shopping-bag__icon{
+        width: 25px;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+    .mobile-menu{
+        border-bottom: none;
+    }
+    .mobile-menu:hover .menu__tabs{
+        display: block;
+    }
+    .menu__bridge{
+        z-index: 4;
+        height: 30px;
+    }
+    .menu__tabs{
+        display: none;
+        position: absolute;
+        z-index: 3;
+        top:114px;
+        left: 0;
+        width: 100%;
+        background: #fdfdf9;
+        padding: 0;
+    }
+    .menu__tab{
+        border-bottom: 1px solid #f2f0ec;
+        margin: 0;
+        padding: 30px 60px;
+        font-size: 16px;
+    }
+    .menu__drop-down{
+       display: none;
+    }
+    .tab--new-arrivals:hover .menu__drop-down{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .menu__tabs {
+        top: 154px;
+    }
+    .sale-alert{
+        background: #67b2c6;
+        padding: 12px 0;
+        color: white;
+    }
+    .sale-alert__tabs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .sale-alert__tab{
+        font-size: 11px;
+        font-weight: 600;
+        padding: 0;
+        letter-spacing: 0.07em;
+    }
+    .sale-alert__tab--italic{
+        font-style: oblique;
+        padding-bottom: 5px;
+        letter-spacing: 0.2em;
+    }
+    .sale-alert__tab--title{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .sale-alert__tab--link{
+        text-decoration: underline;
+        letter-spacing: 0.1em;
+        padding: 0 10px;
+        margin-top: 5px;
+    }
+    .sale-alert__tab--link:hover{
+        opacity: 0.7;
+        cursor: default;
+    }
+}
+@media (max-width:640px){
+    .sale-alert{
+        background: #67b2c6;
+        padding: 12px 0;
+        color: white;
+    }
+    .sale-alert__tabs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .sale-alert__tab{
+        font-size: 11px;
+        font-weight: 600;
+        padding: 0;
+        letter-spacing: 0.07em;
+    }
+    .sale-alert__tab--italic{
+        font-style: oblique;
+        padding-bottom: 5px;
+        letter-spacing: 0.2em;
+    }
+    .sale-alert__tab--title{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .sale-alert__tab--link{
+        text-decoration: underline;
+        letter-spacing: 0.1em;
+        padding: 0 10px;
+        margin-top: 5px;
+    }
+    .sale-alert__tab--link:hover{
+        opacity: 0.7;
+        cursor: default;
+    }
+    .mobile-menu{
+        width: calc(20% - 20px);
+        padding-left: 20px;
+    }
+    .hamburger-icon__lines{
+        width: 16px;
+        height: 2px;
+        background: #05728c;
+        margin-bottom: 3px;
+    }
+    .menu__tabs{
+        top:148px;
+    }
+    .logo{
+        width: 60%;
+        padding: 0;
+        text-align: center;
+    }
+    .logo__image{
+        width: 65%;
+        max-width: 200px;
+    }
+    .mobile-search{
+        display: block;
+        width: calc(10% - 20px);
+        text-align: right;
+        padding-right: 20px;
+    }
+    .mobile-search__icon{
+        width: 15px;
+    }
+    .utility-nav{
+        width: calc(10% - 20px);
+        margin: 0;
+        padding: 0 20px 0 0;
+    }
+    .shopping-bag__icon{
+        width: 20px;
+    }
+    .shopping-bag__amount{
+        display: none;
+    }
 }
