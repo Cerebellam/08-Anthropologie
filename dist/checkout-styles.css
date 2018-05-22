@@ -1,7 +1,0 @@
-.basket{
-    display: flex;
-    flex-wrap: wrap;
-}
-.basket__title{
-    font-size: 24px;
-}

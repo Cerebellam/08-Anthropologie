@@ -164,6 +164,7 @@ html, body{
     height: 20px;
     width: 100%;
     left: 0;
+    top:85px;
     background: transparent;
 }
 .menu__drop-down{
@@ -250,7 +251,10 @@ html, body{
     }
     .menu__bridge{
         z-index: 4;
-        height: 30px;
+        height: 60px;
+        width: 120px;
+        top: 125px;
+
     }
     .menu__tabs{
         display: none;

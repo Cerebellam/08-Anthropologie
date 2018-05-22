@@ -356,7 +356,7 @@
     .category-browse{
         display: none;
     }
-    .paging{
+    .paging__top{
         display: none;
     }
     .gallery{
@@ -371,4 +371,13 @@
         flex-wrap: wrap;
         position: relative;
         margin: 0 40px 20px 20px;
+    }
+    .paging__bottom{
+        justify-content: center;
+    }
+    .paging__number{
+        letter-spacing: 0.08em;
+        font-size: 14px;
+        color: #5c5c5f;
+    }
 }
