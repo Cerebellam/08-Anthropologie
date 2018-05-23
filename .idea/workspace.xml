@@ -4,7 +4,6 @@
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/hudson-dress-info.html" afterPath="$PROJECT_DIR$/dist/hudson-dress-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/header-styles.css" afterPath="$PROJECT_DIR$/dist/styles/header-styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/hudson-styles.css" afterPath="$PROJECT_DIR$/dist/styles/hudson-styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hudson-dress-info.html" afterPath="$PROJECT_DIR$/hudson-dress-info.html" />
     </list>
@@ -35,8 +34,8 @@
           <file leaf-file-name="hudson-dress-info.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hudson-dress-info.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+                <state relative-caret-position="1843">
+                  <caret line="148" column="61" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -49,8 +48,8 @@
           <file leaf-file-name="hudson-styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dist/styles/hudson-styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1208">
-                  <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+                <state relative-caret-position="8209">
+                  <caret line="676" column="20" lean-forward="false" selection-start-line="676" selection-start-column="20" selection-end-line="676" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -198,12 +197,12 @@
       <workItem from="1525201172406" duration="35584000" />
       <workItem from="1526047208009" duration="2162000" />
       <workItem from="1526145348163" duration="28142000" />
-      <workItem from="1526485963806" duration="81481000" />
+      <workItem from="1526485963806" duration="85043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147369000" />
+    <option name="totallyTimeSpent" value="150931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="29" width="1269" height="753" extended-state="0" />
@@ -473,16 +472,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hudson-dress-info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="1843">
+          <caret line="148" column="61" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/hudson-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1208">
-          <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        <state relative-caret-position="8209">
+          <caret line="676" column="20" lean-forward="false" selection-start-line="676" selection-start-column="20" selection-end-line="676" selection-end-column="20" />
           <folding />
         </state>
       </provider>
