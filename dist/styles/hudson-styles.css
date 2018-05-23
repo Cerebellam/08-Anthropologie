@@ -170,6 +170,7 @@
     font-size: 13px;
     color: #5c5c5f;
     font-weight: 400;
+    background: #fdfdf9;
 }
 .size-form__button--large{
     padding: 12px 0;
@@ -284,6 +285,7 @@
     letter-spacing: 0.2em;
     color: white;
     height: 44px;
+    background: #fdfdf9;
 }
 .button--grey{
     width: 82%;
@@ -676,6 +678,12 @@
         padding:0;
         margin: 20px 20px;
     }
+    .button--grey{
+        width: 100%;
+    }
+    .add-list{
+        width: 100%;
+    }
     .section__title--center{
         text-align: left;
     }
@@ -699,7 +707,7 @@
     .gallery__product--related{
         margin: 0;
     }
-    rating{
+    .rating{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -820,6 +828,9 @@
         font-weight: 300;
         color: #5c5c5f;
         padding-left: 5px;
+    }
+    .button--outline{
+        width: 100%;
     }
     .hashtag__image{
        width: 100%;
