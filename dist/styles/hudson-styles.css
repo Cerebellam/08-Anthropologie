@@ -672,11 +672,19 @@
     .product-info{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-content: center;
         width: calc(100% - 40px);
         padding:0;
         margin: 20px 20px;
+    }
+    .product-colors{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-top: 20px;
+        font-size: 14px;
+        width: 100%;
     }
     .button--grey{
         width: 100%;
