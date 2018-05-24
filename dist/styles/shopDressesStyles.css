@@ -255,6 +255,9 @@
     font-size: 12px;
     padding-bottom: 15px;
 }
+.link--colors{
+    display: none;
+}
 .product__colors{
     display: inline-block;
 }
@@ -417,6 +420,11 @@
         width: calc(100% - 40px);
         margin: 0 20px 0 20px;
 
+    }
+    .link--colors{
+        display: block;
+        font-size: 13px;
+        color: #07a7ca;
     }
     .product__colors{
         display: none;
