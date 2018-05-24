@@ -175,6 +175,7 @@
     color: #5c5c5f;
     font-weight: 400;
     background: #fdfdf9;
+    outline: none;
 }
 .size-form__button--large{
     padding: 12px 0;
