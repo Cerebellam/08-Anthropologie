@@ -598,6 +598,7 @@
     .main-product__images{
         display: flex;
         flex-wrap: wrap;
+        align-items: flex-start;
         width: calc(52% - 20px);
         margin-right: 20px;
     }
@@ -625,6 +626,15 @@
     .gallery__products--shop-look{
         width: calc(100% - 20px);
         margin: 0 0 0 20px;
+
+    }
+    .section__title{
+        font-size: 18px;
+        letter-spacing: 0.03em;
+        border-bottom: 1px solid #ccc;
+        margin-top: 20px;
+        padding-bottom: 15px;
+        width: 100%;
     }
     .product-info{
         width: calc(48% - 60px);
