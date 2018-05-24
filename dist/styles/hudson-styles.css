@@ -39,7 +39,7 @@
     width: 100%;
 }
 .dots{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     position: absolute;
     top: 668px;
@@ -668,7 +668,9 @@
     .image-viewer__large{
         padding: 0;
     }
-
+    .dots{
+        display: flex;
+    }
     .gallery__products--shop-look{
         display: none;
         width: 100%;

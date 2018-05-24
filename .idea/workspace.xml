@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/header-styles.css" afterPath="$PROJECT_DIR$/dist/styles/header-styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/hudson-styles.css" afterPath="$PROJECT_DIR$/dist/styles/hudson-styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,8 +59,8 @@
       <file leaf-file-name="hudson-styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/styles/hudson-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="177" column="4" lean-forward="false" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="18" />
+            <state relative-caret-position="330">
+              <caret line="671" column="21" lean-forward="false" selection-start-line="671" selection-start-column="21" selection-end-line="671" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -217,12 +216,12 @@
       <workItem from="1525201172406" duration="35584000" />
       <workItem from="1526047208009" duration="2162000" />
       <workItem from="1526145348163" duration="28142000" />
-      <workItem from="1526485963806" duration="89421000" />
+      <workItem from="1526485963806" duration="89537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155309000" />
+    <option name="totallyTimeSpent" value="155425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="29" width="1269" height="753" extended-state="0" />
@@ -508,8 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/hudson-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="177" column="4" lean-forward="false" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="671" column="21" lean-forward="false" selection-start-line="671" selection-start-column="21" selection-end-line="671" selection-end-column="21" />
           <folding />
         </state>
       </provider>
