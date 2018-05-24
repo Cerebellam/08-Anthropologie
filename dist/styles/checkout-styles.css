@@ -372,11 +372,11 @@
     }
     .basket{
         width: calc(100% - 40px);
-        margin: 0 40px;
+        margin: 0 20px;
     }
     .basket__header{
         width: calc(100% - 40px);
-        margin: 0 40px;
+        margin: 0 20px;
     }
     .basket__subheader{
         display: none;
@@ -391,7 +391,6 @@
         width: 70%;
         display: flex;
         flex-wrap: wrap;
-
     }
     .basket__column--full{
         width: 100%;
@@ -407,24 +406,26 @@
     .basket__price-section{
         width: 100%;
         text-align: center;
-        margin: 20px 0;
+        margin: 20px 0 0 0;
         align-items: center;
     }
     .basket__edit-section{
         width: 100%;
-        text-align: center;
-        margin: 20px 0;
+        text-align: left;
+        margin: 20px 0 20px 0;
         align-items: center;
+
     }
     .link--basket{
         width:33.33%;
-        margin:20px 0;
-        height: 20px;
+        margin:10px 0;
+        height: 40px;
     }
     .link--border{
-        width: calc(33.33% - 1px);
+        width: calc(33.33% - 31px);
         border-right: 1px solid #cdcdcd;
-        padding: 0;
+        padding: 0 5px;
+        margin: 0 10px;
     }
     .basket__gift-wrap{
         width: 100%;
@@ -432,9 +433,9 @@
         margin: 10px 0;
     }
     .order-summary {
-        width: calc(100% - 80px);
+        width: calc(100% - 40px);
         padding: 0;
-        margin: 0 40px;
+        margin: 0 20px;
         padding-top: 40px;
         justify-content: center;
     }

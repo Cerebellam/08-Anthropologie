@@ -103,7 +103,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: calc(80% - 42px);
+    width: calc(70% - 42px);
     border: 1px solid #ccc;
 
     padding: 15px 20px;
@@ -134,7 +134,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: calc(20% - 62px);
+    width: calc(30% - 62px);
     border: 1px solid #ccc;
     margin: 0 40px 0 20px;
     text-align: center;
@@ -370,14 +370,53 @@
         display: flex;
         flex-wrap: wrap;
         position: relative;
-        margin: 0 40px 20px 20px;
+        margin: 0 20px 20px 20px;
     }
     .paging__bottom{
         justify-content: center;
+        padding-right: 0;
     }
     .paging__number{
         letter-spacing: 0.08em;
         font-size: 14px;
         color: #5c5c5f;
     }
+}
+@media (max-width: 640px) {
+    .bread-crumb{
+        width: calc(100% - 20px);
+        padding:10px 0 20px 20px;
+    }
+    .category-header{
+        width: calc(100% - 20px);
+        margin-left: 20px;
+    }
+    .category-menu__filter{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: calc(30% - 27px);
+        border: 1px solid #ccc;
+        margin: 0 20px 0 5px;
+        text-align: center;
+    }
+    .gallery__products{
+        width: calc(100% - 10px);
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin: 0 0 20px 10px;
+    }
+    .gallery__product{
+        width: calc(50% - 20px);
+        padding-left: 10px;
+        margin-bottom: 40px;
+    }
+    .best-dresses{
+        width: calc(100% - 40px);
+        margin: 0 20px 0 20px;
+
+    }
+
 }

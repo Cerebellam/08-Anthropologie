@@ -201,7 +201,8 @@ html, body{
         display: none;
     }
     .mobile-menu{
-        display: block;
+        display: flex;
+        border-bottom: none;
     }
     .search{
         display: none;
@@ -242,9 +243,6 @@ html, body{
     }
     .hamburger-icon{
         display: block;
-    }
-    .mobile-menu{
-        border-bottom: none;
     }
     .hamburger-icon:hover .menu__tabs{
         display: block;
@@ -365,8 +363,8 @@ html, body{
         cursor: default;
     }
     .mobile-menu{
-        width: calc(20% - 40px);
-        padding-left: 40px;
+        width: calc(20% - 20px);
+        padding-left: 20px;
     }
     .hamburger-icon__lines{
         width: 16px;
