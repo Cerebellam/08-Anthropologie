@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac84d87-270b-448a-8517-d1c300e6f4f6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/hudson-styles.css" afterPath="$PROJECT_DIR$/dist/styles/hudson-styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,8 +60,18 @@
       <file leaf-file-name="hudson-styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/styles/hudson-styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="674" column="36" lean-forward="false" selection-start-line="674" selection-start-column="36" selection-end-line="674" selection-end-column="36" />
+            <state relative-caret-position="-9203">
+              <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hudson-dress-info.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hudson-dress-info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="132" column="92" lean-forward="false" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -206,12 +217,12 @@
       <workItem from="1525201172406" duration="35584000" />
       <workItem from="1526047208009" duration="2162000" />
       <workItem from="1526145348163" duration="28142000" />
-      <workItem from="1526485963806" duration="88442000" />
+      <workItem from="1526485963806" duration="88943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154330000" />
+    <option name="totallyTimeSpent" value="154831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="29" width="1269" height="753" extended-state="0" />
@@ -455,14 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hudson-dress-info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="148" column="61" lean-forward="false" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/header-styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
@@ -495,10 +498,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hudson-dress-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="132" column="92" lean-forward="false" selection-start-line="132" selection-start-column="67" selection-end-line="132" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/hudson-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="674" column="36" lean-forward="false" selection-start-line="674" selection-start-column="36" selection-end-line="674" selection-end-column="36" />
+        <state relative-caret-position="-9203">
+          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
           <folding />
         </state>
       </provider>
